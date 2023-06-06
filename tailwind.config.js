@@ -3,6 +3,9 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: { 
+      backgroundImage:{
+        'image':"url(../images/CTABg.svg)",
+      },
       fontFamily: {
       mullish: ["Mulish", "sans-serif"],
     },
